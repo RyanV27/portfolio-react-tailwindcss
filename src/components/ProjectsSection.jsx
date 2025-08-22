@@ -3,6 +3,14 @@ import { ArrowRight, Dice1, Github } from "lucide-react";
 const projects = [
     {
         id: 1,
+        title: "AI Tutor for GPU-Accelerated Data Science",
+        description: "A responsive web application built using React, FastAPI, and GPT 4.1 to interactively teach users about GPU-accelerated Python data science libraries.",
+        image: "/projects/ai_tutor_hackathon.png",
+        tags: ["React", "FastAPI", "GPT", "RAG", "Prompt Engineering"],
+        githubURL: "https://github.com/KhajaBeeShaik/pdf-pal-study-buddy"
+    },
+    {
+        id: 2,
         title: "Monocular Depth Estimation",
         description: "Using a U-Net with a MobileNetV2 backbone architecture to perform monocular depth estimation on the NYU Depth V2 dataset.",
         image: "/projects/depth_estimation.png",
@@ -10,7 +18,7 @@ const projects = [
         githubURL: "https://github.com/RyanV27/depth-estim-mobilenet"
     },
     {
-        id: 2,
+        id: 3,
         title: "RAG Pipeline for FMEA",
         description: "A Retrieval-Augmented Generation (RAG) pipeline created using LangChain, Gemini API, and sentence transformers from Hugging Face to create FMEA documents for SMT Manufacturing.",
         image: "/projects/rag_fmea.png",
@@ -18,7 +26,7 @@ const projects = [
         githubURL: "https://github.com/RyanV27/rag-smt-fmea"
     },
     {
-        id: 3,
+        id: 4,
         title: "Object Pose Estimation",
         description: "Template matching method to find the pose of an object through the aggregation of features from Stable Diffusion with Vision Transformers integrated for improved performance.",
         image: "/projects/diffusion_object_pose.png",
@@ -26,7 +34,7 @@ const projects = [
         githubURL: "https://github.com/RyanV27/diffusion-object-pose"
     },
     {
-        id: 4,
+        id: 5,
         title: "Data Preprocessing on World Bank Datasets",
         description: "An ETL pipeline built with PySpark and Pandas to preprocess World Bank datasets on projects, population, and GDP. Essential data transformations, including handling missing values, setting data types, removing duplicates, and identifying outliers are performed.",
         image: "/projects/world_bank_data.png",
@@ -34,7 +42,7 @@ const projects = [
         githubURL: "https://github.com/RyanV27/world-bank-data-preprocessing"
     },
     {
-        id: 5,
+        id: 6,
         title: "ETL Workflow on Retail Transactions Data",
         description: "A simple ETL pipeline to analyze retail transactions and customer data using PySpark on Databricks. The code for extractor, transformer and loader were written using the factory method pattern.",
         image: "/projects/retail_etl_pipeline.png",
@@ -42,7 +50,7 @@ const projects = [
         githubURL: "https://github.com/RyanV27/retail-etl-pipeline"
     },
     {
-        id: 6,
+        id: 7,
         title: "Music Streaming Application",
         description: "A simple application to play songs stored in S3, with song, artist and album details stored in CockroachDB and user-specific listening history and playlists stored in Cassandra.",
         image: "/projects/music_streaming_app.png",
@@ -50,7 +58,7 @@ const projects = [
         githubURL: "https://github.com/RyanV27/music-streaming-app"
     },
     {
-        id: 7,
+        id: 8,
         title: "Federated Learning for Improved Heart Attack Detection",
         description: "Exploring the use of federated learning algorithms, including FedAvg, FedProx and SCAFFOLD, to improve the accuracy of a CNN created for heart attack detection.",
         image: "/projects/federated_learning.png",
@@ -58,7 +66,7 @@ const projects = [
         githubURL: "https://github.com/RyanV27/federated-learning-for-heart-attack-detection"
     },
     {
-        id: 8,
+        id: 9,
         title: "Person Re-identification",
         description: "Identifying the images in a database that are similar to a reference image.",
         image: "/projects/person_re_identification.png",

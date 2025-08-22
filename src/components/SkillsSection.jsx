@@ -11,19 +11,18 @@ const skills = [
   { name: "JavaScript", level: 80, category: "languages" },
   { name: "TypeScript", level: 70, category: "languages" },
 
-  // tools & Frameworks
+  // Tools & Frameworks
   { name: "PyTorch", level: 90, category: "tools" },
   { name: "PySpark", level: 80, category: "tools" },
   { name: "Kafka", level: 60, category: "tools" },
   { name: "Numpy", level: 85, category: "tools" },
   { name: "Pandas", level: 85, category: "tools" },
-  { name: "scikit-learn", level: 70, category: "tools" },
+  { name: "Scikit-learn", level: 70, category: "tools" },
   { name: "Matplotlib", level: 80, category: "tools" },
   { name: "Node.js", level: 70, category: "tools" },
-  { name: "Docker", level: 75, category: "tools" },
   { name: "Git", level: 90, category: "tools" },
 
-  // databasess
+  // Databasess
   { name: "PostgreSQL", level: 80, category: "databases" },
   { name: "MySQL", level: 75, category: "databases" },
   { name: "Oracle SQL Developer", level: 70, category: "databases" },
@@ -31,12 +30,18 @@ const skills = [
   { name: "MongoDB", level: 60, category: "databases" },
   { name: "ElasticSearch", level: 40, category: "databases" },
 
+  // Cloud/Deployment
+  { name: "AWS", level: 70, category: "cloud & deployment" },
+  { name: "Docker", level: 75, category: "cloud & deployment" },
+  { name: "Airflow", level: 60, category: "cloud & deployment" },
+  { name: "MLflow", level: 80, category: "cloud & deployment" },
+
   // Operating Systems
-  { name: "Linux & Bash Scripting", level: 80, category: "Operating Systems" },
-  { name: "Windows", level: 90, category: "Operating Systems" }
+  { name: "Linux & Bash Scripting", level: 80, category: "operating systems" },
+  { name: "Windows", level: 90, category: "operating systems" }
 ];
 
-const categories = ["all", "languages", "tools", "databases", "Operating Systems"];
+const categories = ["all", "languages", "tools", "databases", "cloud & deployment", "operating systems"];
 
 export const SkillsSection = () => {
     const [activeCategory, setActiveCategory] = useState("all");    // To check which category is currently selected

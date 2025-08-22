@@ -7,9 +7,10 @@ const periods = [
         from: "June 2023",
         to: "July 2023",
         description: [
-            "Contributed to Compiler Explorer(https://godbolt.org/), an open-source software, by enabling hexagon-clang compiler to run on it.",
-            "Worked extensively in Linux with Git and GitHub to track the work.",
-            "Wrote code for a Node.js application and leveraged Docker containers to perform tasks."
+            "Contributed to Compiler Explorer (https://godbolt.org/), an open-source software, enabling Hexagon-Clang compiler support to provide the Hexagon DSP team with an efficient tool for testing and debugging.",
+            "Implemented features for a Node.js application in a Linux environment, utilizing Git/GitHub for version control.",
+            "Ensured correct parsing of hexagon assembly instructions.",
+            "Identified and took initiative to resolve issues with Opt Pipeline Viewer."
         ],
         tags: ["TypeScript", "Python", "Linux", "Git", "Docker", "Open-source development"]
     },
